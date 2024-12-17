@@ -2,7 +2,6 @@
 #include <cmath>
 #include <limits> 
 
-
 double inputs[4];  // [0] = A0, [1] = N0, [2] = M0, [3] = lambda
 double results[3]; // [0] = A(t), [1] = N(t), [2] = M(t)
 
@@ -16,7 +15,7 @@ void clearInputBuffer() {
 
 void displayWelcomeMessage() {
     std::cout << "\n=====================================\n";
-    std::cout << "  Welcome to the Nuclear Calculator!   \n";
+    std::cout << "   Welcome to the Nuclear Calculator!   \n";
     std::cout << "=====================================\n";}
 
 void displayMenu() {
@@ -31,7 +30,6 @@ int main() {
     double t; // Store the time value 
 
     displayWelcomeMessage();
-    
     displayMenu();
     std::cin >> choice;
     
