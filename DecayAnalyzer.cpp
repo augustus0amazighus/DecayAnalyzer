@@ -4,7 +4,6 @@
 
 double inputs[4];  // [0] = A0, [1] = N0, [2] = M0, [3] = lambda
 double results[3]; // [0] = A(t), [1] = N(t), [2] = M(t)
-
 // Function declarations
 double calculateAt(double a0, double lambda, double t);  // A(t)
 double calculateNt(double n0, double lambda, double t);  // N(t)
@@ -39,7 +38,6 @@ int main() {
         clearInputBuffer();
         std::cout << "Invalid choice. Please select 1, 2, or 3: ";
         std::cin >> choice; }
-
     // Input decay constant and time
     std::cout << "\nEnter lambda (decay constant): ";
     std::cin >> inputs[3];
